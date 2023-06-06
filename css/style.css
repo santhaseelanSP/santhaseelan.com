@@ -1,0 +1,292 @@
+
+/* ------------------------------------------ comman tags ------------------------------------------ */
+
+
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+    
+}
+
+h1
+{  
+    font-family: 'Merriweather', serif;
+
+    color: rgb(0, 85, 113);
+    font-size: 3.75rem;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 85, 113);
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 85, 113);
+    font-size: 1.2rem;
+}
+h4
+{
+    margin-top: 0;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    font-size: 1rem;
+    
+}
+
+
+/* ------------------------------------------ id's ------------------------------------------ */
+#name
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    
+}
+
+#s-image
+{
+    width: 200;
+    height: 200;
+    margin: 50 auto 20 auto;
+}
+#menu-img
+{
+    width: 30px;
+    position:absolute;
+    left: 10px;
+    top :10px;
+    
+}
+#education-img
+{
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+#skill-img
+{
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+#hobby-img
+{
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+#games-img
+{
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+
+}
+
+#gamesLogoDiv
+{
+    float: left;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ class ------------------------------------------ */
+
+
+.background-div
+{
+    background-color: skyblue; 
+    height: 450px;
+    margin-bottom: 50;
+}
+
+
+
+.education-content
+{
+    width: 60%;
+    text-align: left;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+} 
+.skill-content
+{
+    width: 60%;
+    text-align: left;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+}
+.hobby-content
+{
+    width: 60%;
+    text-align: left;
+    margin: 50px auto 0 auto;
+}
+
+.games-content
+{
+    width: 60%;
+    text-align: left;
+    margin: 50px auto 0 auto;
+}
+
+
+
+
+
+/* 
+.skill-div
+{
+    margin-top: 50px;
+} */
+
+.list-style
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div-heading-text
+{
+    font-size: 1.4rem;
+}
+
+.gamesLogo
+{
+
+    width: 50px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.clear 
+{
+    clear: both;
+    margin-top: 50px;
+}
+
+.aGame img,a
+{
+    
+    display: inline;
+    text-align: left;
+}
+.aGame
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.aGame a
+{
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 18px;
+    color: rgb(0, 85, 113);
+    text-decoration: none;
+    
+}
+
+
+/* .contacts-div
+{   
+    display: flex;
+    align-items: center;
+} */
+
+.contacts-div a,h5
+{
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 18px;
+    align-items: center;
+
+}  
+
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+    
+    #s-image {
+        width: 150px;
+        height: 150px;
+        margin: 50px auto 20px auto;
+    }
+
+    .games-div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    
+    
+    #education-img,
+    #games-img,
+    #skill-img,
+    #hobby-img {
+        width: 80px;
+        margin-right: 0px;
+        float: none;
+        text-align: center;
+    }
+    
+    .education-content,
+    .games-content,
+    .skill-content,
+    .hobby-content {
+        width: 90%;
+        padding-top: 20px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+    }
+
+    .background-div
+    {
+        height: 350px;
+    }
+
+    .clear 
+    {
+        clear: both;
+        margin-top: 10px;
+    }
+}
