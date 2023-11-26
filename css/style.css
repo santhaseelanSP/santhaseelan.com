@@ -212,6 +212,12 @@ p
     
 }
 
+.aGame a:hover
+{
+    font-size: 22px;
+    color: rgb(0, 143, 191);
+}
+
 
 /* .contacts-div
 {   
