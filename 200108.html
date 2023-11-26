@@ -11,29 +11,45 @@
 
     <script src="script.js"></script>
     <style>
-      table {
-        border-collapse: collapse;
-        width: 100%;
+
+      body
+      {
+        background-color: rgb(53, 120, 96);
       }
-  
-      th, td {
-        text-align: left;
-        padding: 8px;
-      }
-  
-      th {
-        background-color: #f2f2f2;
-      }
+      
+
       .container
       {
         text-align: center;
-        align-items: center;
+      }
+      input
+      {
+        margin-top: 20px;
+        border: 0px;
+        border-radius: 10px;
+        width: 250px;
+        height: 30px;
+        font-family: 'Sacramento', cursive;
+        text-align: center;
+        font-size: 1.2rem;
       }
       #contentDiv
       {
-
+        margin-top: 50px;
         text-align: center;
+        color: white;
       }
+
+      .passwordSubmit
+        {
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: rgb(30, 58, 48);
+            color: white
+        }
+
   
 
     </style>
@@ -41,17 +57,17 @@
   <body>
 
     <div class="container">
+      
       <input type="password" id="passwordInput" placeholder="Enter password">
+      <br>
+      <br>
       <button onclick="checkPassword()" class="passwordSubmit">Submit</button>
       
     </div>
 
     <div id="contentDiv">
-      <br>
-      <br>
-      <br>
-      <br>
-      </div>
+
+    </div>
 
       
     
