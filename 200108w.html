@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+    <script src="script.js"></script>
+    <style>
+        body 
+        {
+            background-color: rgb(53, 120, 96);
+        }
+
+        #addData,#added
+        {
+            text-align: center;
+        }
+        input
+        {
+            border: 0px;
+            border-radius: 10px;
+            width: 300px;
+            height: 40px;
+            font-family: 'Sacramento', cursive;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        #heading
+        {
+            font-family: 'Sacramento', cursive;
+            color: white;
+        }
+        #SubmitPasswordForAdd
+        {
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: rgb(30, 58, 48);
+            color: white
+        }
+        #added
+        {
+            font-family: 'Sacramento', cursive;
+            color: rgb(255, 255, 255);
+            font-size: 1.1rem;
+        }
+
+       
+
+
+    </style>
+</head>
+
+    <body>
+        
+        <div id="addData">
+            <h2 id="heading">Add E-data</h2>
+            <br>
+            <br>
+            <input type="text" id="key" placeholder="Key..">
+            <br>
+            <br>
+            <input type="text" id="value" placeholder="value..">
+            <br>
+            <br>
+            <input type="password" name="" id="passwordForAdd" placeholder="password..">
+            <br>
+            <br>
+            <br>
+
+            <button id="SubmitPasswordForAdd" onclick="checkPasswordForAdd()">Submit</button>
+
+          </div>
+
+          <div id="added">
+            
+          </div>
+
+    </body>
+</html>
