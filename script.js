@@ -23,7 +23,7 @@ firebase.database().ref('password').on('value',(snap)=>{
 function checkPassword() {
     var password = document.getElementById("passwordInput").value;
   
-    if (password == "hello") 
+    if (password == passwordDB) 
     {
       getDetails(displayDetails);
     } 
