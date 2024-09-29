@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>santhaseelan</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+    <script src="script.js"></script>
+    <style>
+        body 
+        {
+            background-color: #2B7A78;
+        }
+
+        #addData,#added
+        {
+            text-align: center;
+        }
+        input
+        {
+            border: 0px;
+            border-radius: 10px;
+            width: 300px;
+            height: 40px;
+            font-family: 'Sacramento', cursive;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        #heading
+        {
+            font-family: 'Sacramento', cursive;
+            color: white;
+        }
+        #SubmitPasswordForAdd
+        {
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            border: 0px;
+            background-color: #17252A;
+            color: white
+        }
+        #added
+        {
+            font-family: 'Sacramento', cursive;
+            color: rgb(255, 255, 255);
+            font-size: 1.1rem;
+        }
+
+        #uploadStatus
+        {
+            font-family: 'Sacramento', cursive;
+            color: rgb(255, 255, 255);
+            font-size: 1.1rem; 
+        }
+
+       
+
+
+    </style>
+</head>
+
+    <body>
+
+        <!-- Add a file input to allow users to select files -->
+
+    
+        
+        <div id="addData">
+            <br>
+            <br>
+            <h2 id="heading">Upload photo</h2>
+            <br>
+            <br>
+
+            <input type="file" id="fileInput">
+
+            <br>
+            <br>
+            <br>
+            
+       
+            <input type="password" name="" id="passwordForAdd" placeholder="password..">
+
+            <br>
+            <br>
+            <br>
+
+          <button id="SubmitPasswordForAdd" onclick="checkPasswordForUpload()">Submit</button>
+          <br>
+          <br>
+            <div id="uploadStatus"></div> <!-- To display the upload status -->
+          </div>
+            
+
+    </body>
+</html>
